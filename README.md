@@ -72,5 +72,9 @@ provide passpharse/password, it will return true
 17.Type http://127.0.0.1:8547
 
 18.It will connect with private ethereum accounts
+
+19.run and deploy the contract once it is connected
+
+20.web3.eth.getTransaction("Transaction hash from remix")
   
   
