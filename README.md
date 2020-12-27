@@ -75,6 +75,6 @@ provide passpharse/password, it will return true
 
 19.run and deploy the contract once it is connected
 
-20.web3.eth.getTransaction("Transaction hash from remix")
+20.web3.eth.getTransactionReceipt("Transaction hash from remix")
   
   
