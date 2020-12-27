@@ -45,26 +45,31 @@ INFO [12-27|17:03:00.163] Successfully wrote genesis state         database=ligh
 
 "0xdb2c75d59a0bfb5ce20fd9252726e7f889bf9a73"
 
-8.personal.listAccounts
+8.To unlock an account
 
-9.miner.start()
+personal.unlockAccount(eth.accounts[0])
+provide passpharse/password, it will return true
 
-10.Open another terminal 
+9.personal.listAccounts
+
+10.miner.start()
+
+11.Open another terminal 
 
 	tail -f eth1.log
   
-11.eth.getBalance(eth.accounts[0])
+12.eth.getBalance(eth.accounts[0])
 
-12.admin.nodeInfo
+13.admin.nodeInfo
 
-13.Open remix code
+14.Open remix code
 
-14.Open deploy and run
+15.Open deploy and run
 
-15.click web3.js
+16.click web3.js
 
-16.Type http://127.0.0.1:8547
+17.Type http://127.0.0.1:8547
 
-17.It will connect with private ethereum accounts
+18.It will connect with private ethereum accounts
   
   
