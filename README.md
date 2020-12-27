@@ -77,4 +77,13 @@ provide passpharse/password, it will return true
 
 20.web3.eth.getTransactionReceipt("Transaction hash from remix")
   
+21. To add more peers in the private network 
+
+22. Create folders containing same genesis.json file
+
+23. Perform initialize json file, log file, geth console, create accounts, mining, admin.Info(This command produce enode address)
+
+24. To add peer
+
+admin.addPeer("second node enode address")
   
