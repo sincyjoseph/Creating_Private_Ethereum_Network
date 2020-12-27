@@ -48,6 +48,7 @@ INFO [12-27|17:03:00.163] Successfully wrote genesis state         database=ligh
 8.To unlock an account
 
 personal.unlockAccount(eth.accounts[0])
+
 provide passpharse/password, it will return true
 
 9.personal.listAccounts
