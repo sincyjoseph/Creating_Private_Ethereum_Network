@@ -1,9 +1,14 @@
 # Creating_Private_Ethereum_Network
 
 Prerequiesites
+
 install geth
-install ganache - >    npm install -g ganache-cli
-		       ganache-cli
+
+install ganache - >    
+
+npm install -g ganache-cli
+
+ganache-cli
 
 1. create a directory ethereum-private
 
