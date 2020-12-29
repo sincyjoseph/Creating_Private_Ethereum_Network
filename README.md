@@ -2,13 +2,10 @@
 
 Prerequiesites
 
-	install geth
-
-	install ganache - >    
-
-	npm install -g ganache-cli
-
-	ganache-cli
+	install geth 
+	To install ganache:
+		npm install -g ganache-cli
+		ganache-cli
 
 1. create a directory ethereum-private
 
@@ -52,19 +49,12 @@ Prerequiesites
 output:
 
 	INFO [12-27|17:02:59.642] Maximum peer count                       ETH=25 LES=0 total=25
-
 	INFO [12-27|17:02:59.661] Allocated cache and file handles         database=C:\\Users\\Admin\\Desktop\\ethereum-private\\geth\\chaindata cache=16 handles=16
-
 	INFO [12-27|17:02:59.870] Persisted trie from memory database      nodes=1 size=172.00B time=0s gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
-
 	INFO [12-27|17:02:59.915] Successfully wrote genesis state         database=chaindata                                                    hash=a19881…c24b7f
-
 	INFO [12-27|17:02:59.940] Allocated cache and file handles         database=C:\\Users\\Admin\\Desktop\\ethereum-private\\geth\\lightchaindata cache=16 handles=16
-
 	INFO [12-27|17:03:00.111] Persisted trie from memory database      nodes=1 size=172.00B time=0s gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
-
 	INFO [12-27|17:03:00.163] Successfully wrote genesis state         database=lightchaindata                                                    hash=a19881…c24b7f
-
 
 5. geth --networkid 8982 --datadir C:\Users\Admin\Desktop\ethereum-private --rpc --rpcaddr "0.0.0.0" --rpcport "8547" --rpcapi "web3,net,eth,admin,personal" rpccorsdomain "*" --allow-insecure-unlock console 2>>eth1.log
 
