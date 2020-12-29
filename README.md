@@ -16,6 +16,37 @@ Prerequiesites
 
 3. Create a genesis.json file in the directory ethereum-private
 
+		{
+			"config": {
+			"chainId": 10,
+			"homesteadBlock": 0,
+			"eip150Block": 0,
+			"eip150Hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+			"eip155Block": 0,
+			"eip158Block": 0,
+			"byzantiumBlock": 0,
+			"constantinopleBlock": 0,
+			"petersburgBlock": 0,
+			"istanbulBlock":0,
+			"ethash": {}
+			},
+			"nonce": "0x0",
+			"timestamp": "0x5e4a53b2",
+			"extraData": "0x0000000000000000000000000000000000000000000000000000000000000000",
+			"gasLimit": "0x47b760",
+			"difficulty": "0x80000",
+			"mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+			"coinbase": "0x0000000000000000000000000000000000000000",
+			"alloc": {
+			"0000000000000000000000000000000000000000": {
+			  "balance": "0x2000000000000000000000000000000000000000000000000000000000000000"
+			}
+			},
+			"number": "0x0",
+			"gasUsed": "0x0",
+			"parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000"
+			}
+
 4. geth --datadir C:\Users\Admin\Desktop\ethereum-private init genesis.json
 
 output:
